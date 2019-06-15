@@ -121,3 +121,6 @@ colnames(male.data) <- names.data
 
 # Now I can use rbind() to bind rows
 accuracy.data <- rbind(female.data, male.data)
+
+# Now print accuracy.data to see the end result
+accuracy.data
